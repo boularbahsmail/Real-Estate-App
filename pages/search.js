@@ -23,7 +23,7 @@ const Search = ({ properties }) => {
                 p="2"
                 fontWeight="black"
                 fontSize="lg"
-                justifyContent="center"
+                justifyContent="space-between"
                 alignItems="center"
                 onClick={() => setSearchFilters((prevFilters) => !prevFilters)}
             >
