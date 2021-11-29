@@ -12,14 +12,14 @@ const Footer = () => (
             title="Twitter" 
             fontWeight="bold"
             >
-            <Link href="https://twitter.com/boularbahsmail" target="new tab">    
+            <Link href="https://twitter.com/boularbahsmail" passHref target="new tab">    
             Ismailium
             </Link>
         </Text>
         |
         <Text>Deployed on 
             <Text fontWeight="bold" color="black" title="Vercel">
-            <Link href="https://vercel.com/" target="new tab">    
+            <Link href="https://vercel.com/" passHref target="new tab">    
                 <SiVercel />
             </Link>
             </Text>
@@ -27,7 +27,7 @@ const Footer = () => (
         |
         <Text>Open Source on 
             <Text fontWeight="bold" color="black" title="GitHub">
-            <Link href="https://github.com/boularbahsmail/Real-Estate-App" target="new tab">    
+            <Link href="https://github.com/boularbahsmail/Real-Estate-App" passHref target="new tab">    
                 <FaGithub />
             </Link>
             </Text>
