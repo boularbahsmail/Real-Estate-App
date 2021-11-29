@@ -20,7 +20,7 @@ const Footer = () => (
         <Text>Deployed on 
             <Text fontWeight="bold" color="black" title="Vercel">
             <Link href="https://vercel.com/" passHref target="new tab">    
-                <SiVercel />
+                <Icon as={SiVercel} />
             </Link>
             </Text>
         </Text>
@@ -28,7 +28,7 @@ const Footer = () => (
         <Text>Open Source on 
             <Text fontWeight="bold" color="black" title="GitHub">
             <Link href="https://github.com/boularbahsmail/Real-Estate-App" passHref target="new tab">    
-                <FaGithub />
+                <Icon as={FaGithub} />
             </Link>
             </Text>
         </Text>
