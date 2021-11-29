@@ -1,7 +1,5 @@
 import Link from 'next/link';
-import { Box, Text, Icon } from '@chakra-ui/react';
-import { SiVercel } from 'react-icons/si';
-import { FaGithub } from 'react-icons/fa';
+import { Box, Text } from '@chakra-ui/react';
 
 const Footer = () => (
     <Box textAlign="center" p="5" color="gray.500" borderTop="1px" borderColor="gray.100">
@@ -19,17 +17,17 @@ const Footer = () => (
         |
         <Text>Deployed on 
             <Text fontWeight="bold" color="black" title="Vercel">
-            <Link href="https://vercel.com/" passHref target="new tab">    
-                <Icon as={SiVercel} />
-            </Link>
+                <Link href="https://vercel.com/" passHref target="new tab">    
+                    Vercel
+                </Link>
             </Text>
         </Text>
         |
         <Text>Open Source on 
             <Text fontWeight="bold" color="black" title="GitHub">
-            <Link href="https://github.com/boularbahsmail/Real-Estate-App" passHref target="new tab">    
-                <Icon as={FaGithub} />
-            </Link>
+                <Link href="https://github.com/boularbahsmail/Real-Estate-App" passHref target="new tab">    
+                    GitHub
+                </Link>
             </Text>
         </Text>
     </Box>
