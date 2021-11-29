@@ -36,7 +36,7 @@ const SearchFilters = () => {
                         {filter?.items?.map((item) => (
                             <option value={item.value} key={item.value}>
                                 {item.name}
-                            </option>
+                            </option> 
                         ))}
                     </Select>
                 </Box>
